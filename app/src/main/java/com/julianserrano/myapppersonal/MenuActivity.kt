@@ -26,5 +26,5 @@ class MenuActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
+   // <!--ByJulian-->
 }
