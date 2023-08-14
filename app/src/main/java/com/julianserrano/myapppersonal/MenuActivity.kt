@@ -15,6 +15,12 @@ class MenuActivity : AppCompatActivity() {
         btnSaludApp.setOnClickListener{ navigateToSaludApp() }
         val btnImccApp = findViewById<Button>(R.id.btnImcApp)
         btnImccApp.setOnClickListener{ navigateToImcApp() }
+        val btnTODO = findViewById<Button>(R.id.btnTODO)
+        btnTODO.setOnClickListener { navigateToTodoApp() }
+    }
+
+    private fun navigateToTodoApp() {
+        TODO("Not yet implemented")
     }
 
     private fun navigateToImcApp(){
