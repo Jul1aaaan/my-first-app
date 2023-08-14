@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.julianserrano.myapppersonal.firstapp.FirstAppActivity
 import com.julianserrano.myapppersonal.imccalculator.ImcCalculatorActivity
+import com.julianserrano.myapppersonal.todoapp.TodoActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,8 @@ class MenuActivity : AppCompatActivity() {
     }
 
     private fun navigateToTodoApp() {
-        TODO("Not yet implemented")
+        val intent = Intent(this, TodoActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToImcApp(){
